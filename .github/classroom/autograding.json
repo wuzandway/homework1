@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Compile Test",
+      "setup": "",
+      "run": "make",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 40
+    },
+    {
+      "name": "Calculating Rectangle Area",
+      "setup": "make a.out",
+      "run": "./a.out rectangle 3 5",
+      "input": "",
+      "output": "15",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 20
+    },
+    {
+      "name": "Calculating Circle Area",
+      "setup": "make a.out",
+      "run": "./a.out circle 10",
+      "input": "",
+      "output": "314",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Calculating Triangle Area",
+      "setup": "",
+      "run": "./a.out triangle 3 5",
+      "input": "",
+      "output": "7.5",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 20
+    }
+  ]
+}
